@@ -19,3 +19,8 @@ resources: {}
 autoscaling:
   enabled: false
 
+# Ajout de la configuration serviceAccount
+serviceAccount:
+  create: true
+  name: my-service-account
+
